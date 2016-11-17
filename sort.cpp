@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int arr[]={2,8,4,1,9},sizeofarr=sizeof(arr)/sizeof(arr[0])-1,c; //Declaration
+    int arr[]={2,8,4,1,9},sizeofarr=sizeof(arr)/sizeof(arr[0]),c; //Declaration
     int *early = arr;
     int *ending=arr+sizeof(arr)/sizeof(arr[0]);
     for(int i=sizeofarr;i>0;i--){
