@@ -15,7 +15,6 @@ int main()
     }
     return 0;
 }
-/* Weakness : Cannot sort same number like {1,2,1,2,3},
-   if that number sort with this algorithm the value is {1,2,3} */
+
 
 
